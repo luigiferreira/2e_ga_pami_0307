@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ titulo }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card *ngFor="let serie of series">
+    <ion-card-header>
+      <ion-card-title>{{ serie.titulo }}</ion-card-title>
+      <ion-card-subtitle>{{ serie.subtitulo }}</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div>
+        <ion-img [src]="serie.capa"></ion-img>
+      </div>
+      {{ serie.texto }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
