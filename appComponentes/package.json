@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ionici": "npm i -g @ionic/cli "
+    "ionici": "npm i -g @ionic/cli & npm i —legacy-peer-deps"
   },
   "private": true,
   "dependencies": {
