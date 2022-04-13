@@ -6,15 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  titulo = "Police Series App";
-  series = [
-    {
-      titulo: 'CSI: Miami',
-      subtitulo: 'Crime Scene Investigation',
-      capa: 'https://flxt.tmsimg.com/assets/p184820_i_h10_ae.jpg',
-      texto: "É uma série de televisão americana que mostrou o trabalho de investigação criminal de uma equipe em Miami. O seriado foi o primeiro spin-off e segunda série da franquia CSI: Crime Scene Investigation.",
-      genero: "drama"
-    },
+  c,
     {
       titulo: "Brooklyn Nine-Nine",
       subtitulo: "",
